@@ -28,7 +28,15 @@ public class Main {
         System.out.println("Your number is: " + number);*/
 
         //Question c
-
+        System.out.println("Enter the average number of steps");
+        double average = input.nextInt();
+        System.out.println("Enter time spent in hours");
+        double hours = input.nextInt();
+        System.out.println("Enter time spent in minutes");
+        double minutes = input.nextInt();
+        double distance = ((average * 2.5) * ((hours * 60) + minutes));
+        double distance_miles = distance / 5280;
+        System.out.println("The distance in miles is " + distance_miles);
 
     }
 }
