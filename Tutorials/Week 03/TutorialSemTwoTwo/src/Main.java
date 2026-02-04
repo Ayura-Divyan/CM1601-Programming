@@ -23,7 +23,9 @@ public class Main {
         /*
         System.out.println("Enter your number:");
         int number = input.nextInt();
-        number += 3;
+        number++;
+        number++;
+        number++;
         number--;
         System.out.println("Your number is: " + number);*/
 
@@ -40,10 +42,20 @@ public class Main {
         System.out.println("The distance in miles is " + distance_miles);*/
 
         //Question d
+        /*
         System.out.println("Please enter your first name: ");
         String firstName = input.nextLine();
         System.out.println("Please enter your last name: ");
         String lastName = input.nextLine();
-        System.out.println(lastName + " " + firstName);
+        System.out.println(lastName + " " + firstName);*/
+
+        //Question 4
+        int a = 2;
+        int b = 5;
+            //a
+            //int c = (a > b) ? a: b;
+            //b
+            int c = a-- + --b * 10;
+        System.out.println(c);
     }
 }
