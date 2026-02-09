@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    void main() {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the number of novels: ");
@@ -17,5 +17,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Error: Invalid data type, please enter only numbers");
         }
+
     }
 }
