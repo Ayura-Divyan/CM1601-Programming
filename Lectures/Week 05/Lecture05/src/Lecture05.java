@@ -1,5 +1,5 @@
 public class Lecture05 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         for (int i = 0; i < 10; i += 2) {
             System.out.println(i);
         }
@@ -13,5 +13,17 @@ public class Lecture05 {
                 break;
             }
         }
+        Integer result = exerciseSum();
+        System.out.println(result);
+    }
+
+    static Integer exerciseSum() {
+        int sum = 0;
+        int counter = 0;
+        while (counter <= 10) {
+            sum += counter;
+            counter++;
+        }
+        return sum;
     }
 }
