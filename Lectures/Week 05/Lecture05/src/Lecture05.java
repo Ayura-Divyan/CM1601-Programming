@@ -15,6 +15,9 @@ public class Lecture05 {
         }
         Integer result = exerciseSum();
         System.out.println(result);
+
+        Integer result2 = exerciseSum2();
+        System.out.println(result2);
     }
 
     static Integer exerciseSum() {
@@ -26,4 +29,15 @@ public class Lecture05 {
         }
         return sum;
     }
+    static Integer exerciseSum2() {
+        int sum = 0;
+        int counter = 1;
+        do {
+            sum += (counter*counter);
+            counter++;
+        }
+        while (counter <= 10);
+        return sum;
+    }
+
 }
