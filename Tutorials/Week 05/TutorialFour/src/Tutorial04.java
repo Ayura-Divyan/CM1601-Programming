@@ -36,5 +36,8 @@ public class Tutorial04 {
             }
             x.add(line);
         }
+        for (int counter = 0; counter < x.size(); counter++) {
+            System.out.println(x.get(counter));
+        }
     }
 }
