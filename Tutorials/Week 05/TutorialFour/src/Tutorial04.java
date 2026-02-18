@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Tutorial04 {
     public static void main(String[] args) {
+        //Question 01
         Scanner input = new Scanner(System.in);
 
         int n;
@@ -17,5 +18,10 @@ public class Tutorial04 {
             }
         }
         System.out.println();
+        Scanner.close()
+    }
+
+    public void questionFour() {
+        
     }
 }
