@@ -18,10 +18,20 @@ public class Tutorial04 {
             }
         }
         System.out.println();
-        Scanner.close()
+        input.close();
     }
+    class QuestionFour {
+        public void questionFour() {
+            Scanner input = new Scanner(System.in);
 
-    public void questionFour() {
-        
+            int num;
+            //Input number
+            System.out.println("Enter the number");
+            num = input.nextInt();
+
+            int result;
+            int num_length = ();
+            int[] x = new int[num_length];
+        }
     }
 }
