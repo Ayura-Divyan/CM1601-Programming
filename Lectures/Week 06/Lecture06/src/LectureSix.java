@@ -9,5 +9,11 @@ public class LectureSix {
         String[] numbers = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
         LectureSix.modify(numbers);
         System.out.println(numbers[0]);
+
+        Car x = new Car();
+
+        x.setMake("Pagani");
+        x.setModel("Hyuara");
+        x.start();
     }
 }
