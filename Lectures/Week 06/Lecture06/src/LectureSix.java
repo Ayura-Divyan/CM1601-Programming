@@ -1,0 +1,14 @@
+import java.util.Arrays;
+
+public class LectureSix {
+    public static void modify(int[] target) {
+        target[0] = 100;
+    }
+
+    public static void main(String[] args) {
+
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        LectureSix.modify(numbers);
+        System.out.println(numbers[0]);
+    }
+}
