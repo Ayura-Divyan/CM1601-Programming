@@ -11,9 +11,6 @@ public class LectureSix {
         System.out.println(numbers[0]);
 
         Car x = new Car();
-
-        x.setMake("Pagani");
-        x.setModel("Hyuara");
-        x.start();
+        x.drive(120);
     }
 }
