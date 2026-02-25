@@ -21,7 +21,7 @@ public class Bank {
         //Comparison method
         System.out.println(acc1.isGreater(new BigDecimal(6564)));
 
-        //
+        //Compound interest method
     }
 
     //Display an account

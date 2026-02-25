@@ -2,7 +2,7 @@ import java.math.BigDecimal;
 
 public class Account {
     //Fields
-    private  String accountNumber;
+    private String accountNumber;
     private String ownerName;
     private BigDecimal balance;
 
@@ -25,7 +25,7 @@ public class Account {
         return this.ownerName;
     }
 
-    public  void setOwnerName(String ownerName) {
+    public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
     }
 
@@ -57,7 +57,7 @@ public class Account {
     public boolean isGreater(BigDecimal amount) {
         if (this.balance.doubleValue() > amount.doubleValue()) {
             return true;
-        } else  {
+        } else {
             return false;
         }
     }
