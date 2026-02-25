@@ -15,8 +15,13 @@ public class Bank {
         bank.displayAccount(acc1);
         bank.displayAllAccounts();
 
+        //Calculate total balance
+        bank.calculateTotalBalance();
+
         //Comparison method
-        acc2.comp(new BigDecimal(6));
+        System.out.println(acc1.isGreater(new BigDecimal(6564)));
+
+        //
     }
 
     //Display an account
@@ -31,5 +36,13 @@ public class Bank {
         for (Account account : Bank.bankAccount) {
             this.displayAccount(account);
         }
+    }
+
+    public void calculateTotalBalance() {
+        BigDecimal totalBalance = new BigDecimal(0);
+        for (Account account : Bank.bankAccount) {
+            totalBalance = totalBalance.add(account.getBalance());
+        }
+        System.out.println("Total balance of all accounts: " + totalBalance);
     }
 }

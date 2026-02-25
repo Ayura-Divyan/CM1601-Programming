@@ -54,9 +54,11 @@ public class Account {
         }
     }
 
-    public void comp(BigDecimal amount) {
+    public boolean isGreater(BigDecimal amount) {
         if (this.balance.doubleValue() > amount.doubleValue()) {
-            System.out.println("True");
+            return true;
+        } else  {
+            return false;
         }
     }
 }
