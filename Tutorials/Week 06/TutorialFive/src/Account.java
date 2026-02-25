@@ -1,11 +1,13 @@
+import java.math.BigDecimal;
+
 public class Account {
     //Fields
     private String accountNumber;
     private String ownerName;
-    private double balance;
+    private BigDecimal balance;
 
     //Methods
-    public Account(String accountNumber, String ownerName, double openingBalance) {
+    public Account(String accountNumber, String ownerName, BigDecimal openingBalance) {
 
     }
 
@@ -25,19 +27,19 @@ public class Account {
 
     }
 
-    public double getBalance() {
+    public BigDecimal getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    public void setBalance(BigDecimal balance) {
 
     }
 
-    public void deposit(double amount) {
+    public void deposit(BigDecimal amount) {
 
     }
 
-    public Boolean withdraw(double amount) {
+    public boolean withdraw(BigDecimal amount) {
         return withdraw;
     }
 }
