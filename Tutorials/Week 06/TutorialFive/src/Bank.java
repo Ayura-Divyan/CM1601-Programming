@@ -13,12 +13,20 @@ public class Bank {
         //Display method created
         Bank bank = new Bank();
         bank.displayAccount(acc1);
+        bank.displayAllAccounts();
     }
 
-    //Display accounts method
+    //Display an account method
     public void displayAccount(Account account) {
         System.out.print(account.getAccountNumber() + "     ");
         System.out.print(account.getOwnerName() + "     ");
         System.out.println(account.getBalance());
+    }
+
+    //Display all accounts method
+    public void displayAllAccounts() {
+        for (Account account : Bank.bankAccount) {
+            this.displayAccount(account);
+        }
     }
 }
