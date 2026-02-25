@@ -53,4 +53,10 @@ public class Account {
             return true; //Withdrawal successful
         }
     }
+
+    public void comp(BigDecimal amount) {
+        if (this.balance.doubleValue() > amount.doubleValue()) {
+            System.out.println("True");
+        }
+    }
 }
