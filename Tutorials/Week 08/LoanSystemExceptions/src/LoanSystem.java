@@ -1,6 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-public class LoanSystem {
+
+public class LoanSystem extends Exception{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // Test customer input (will crash on bad data)
